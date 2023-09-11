@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Dropdown Menu with Bootstrap</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Nested Dropdown Menu</h1>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Item 1</a>
+        <a class="dropdown-item" href="#">Item 2</a>
+        <div class="dropdown-divider"></div>
+        <div class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Item 3</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Sub-item 1</a>
+            <a class="dropdown-item" href="#">Sub-item 2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
